@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minWidth="797.0" prefHeight="658.0" prefWidth="797.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.ScheduleController">
+   <children>
+      <ScrollPane fx:id="schedScrollPane" fitToHeight="true" fitToWidth="true" layoutX="14.0" layoutY="285.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="74.0">
+         <content>
+            <VBox fx:id="scheduleHolder" prefHeight="568.0" prefWidth="858.0" />
+         </content>
+      </ScrollPane>
+      <ComboBox fx:id="consultantComboBox" layoutX="577.0" layoutY="15.0" prefHeight="34.0" prefWidth="200.0" styleClass="consultant-combo-box" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="15.0" />
+      <Button fx:id="refreshBtn" layoutX="487.0" layoutY="15.0" mnemonicParsing="false" onAction="#refreshSchedule" prefHeight="34.0" prefWidth="80.0" text="%refresh" AnchorPane.rightAnchor="230.0" AnchorPane.topAnchor="15.0">
+         <font>
+            <Font name="Segoe UI" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

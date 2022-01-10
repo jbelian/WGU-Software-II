@@ -1,0 +1,169 @@
+
+/*.left-sidebar-menu {
+     -fx-background-color: #003E63;
+}
+.sidebar-pane:hover {
+     -fx-background-color: #27656D;
+}
+.calendar-header-style, .status-bar {
+    -fx-background-color: #7D9986;
+}
+.appointment-pane-style, .schedule-pane-style {
+    -fx-background-color: #FFDC96;
+}*/
+
+
+
+.root {
+    -fx-background-color: #FEFDFC;
+}
+.left-sidebar-menu {
+     -fx-background-color: #7E9CAF;
+}
+.sidebar-pane:hover {
+     -fx-background-color: #8A9FB2;
+}
+.calendar-header-style, .chart-bar {
+    -fx-background-color: #FFDC96;
+}
+.appointment-pane-style, .schedule-pane-style {
+    -fx-background-color: #FFF6E8;
+    -fx-border-color: #FFDC96;
+}
+.status-bar {
+    -fx-background-color: #eee;
+}
+
+
+
+.table-view {
+    -fx-background-color: transparent;
+    -fx-table-cell-border-color: transparent;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-border-width: 0 0 1 0;
+    -fx-background-color: transparent;
+    -fx-border-color: 
+        transparent
+        transparent
+        black
+        transparent;
+}
+
+.table-view .column-header .label {
+    -fx-font-size: 10pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-alignment: center-left;
+}
+
+.table-view:focused .table-row-cell:filled:focused:selected {
+    -fx-background-color: -fx-focus-color;
+}
+
+.calendar-grid-background-color {
+    -fx-background-color: transparent;
+}
+
+.calendar-date-pane-style {
+    -fx-background-color: white;
+}
+
+.hourly-unit-style {
+    -fx-background-color: white;
+}
+
+.main-calendar-label-style {
+    -fx-text-fill: black;
+}
+
+.alt-calendar-label-style {
+    -fx-text-fill: gray;
+    -fx-font-style: italic;
+}
+
+.toggle-button:disabled {
+    -fx-opacity: 1.0;
+}
+
+.appointment-pane-style {
+    -fx-background-radius: 5px;
+    -fx-border-width: 0.5px;
+    -fx-border-radius: 5px;
+    -fx-border-insets: 2px;
+    -fx-padding: 4px;
+    -fx-background-insets: 2px;
+}
+.appointment-label-style {
+    -fx-padding: 0px 0px 2px 3px;
+}
+.schedule-pane-style {
+    -fx-background-radius: 5px;
+    -fx-border-width: 0.5px;
+    -fx-border-radius: 5px;
+    -fx-border-insets: 2px;
+    -fx-padding: 4px;
+    -fx-background-insets: 2px;
+}
+
+.consultant-combo-box {
+    -fx-font-size: 14px;
+}
+
+.scroll-pane {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+}
+.scroll-pane .viewport {
+    -fx-background-color: transparent;
+}
+.scroll-pane:focused {
+    -fx-background-insets: 0;
+}
+.scroll-pane .corner {
+    -fx-background-insets: 0;
+}
+.scroll-bar {
+    -fx-background-color: white;
+}
+.scroll-bar .thumb {
+    -fx-background-color: rgb(205,205,205);
+    -fx-background-radius: 2.0em;
+}
+.scroll-bar:horizontal .thumb {
+    -fx-background-insets: 2 0 2 0;
+}
+.scroll-bar:vertical .thumb {
+    -fx-background-insets: 0 2 0 2;
+}
+.scroll-bar .thumb:hover {
+    -fx-background-color: rgb(215,215,215);
+}
+.scroll-bar .thumb:pressed {
+    -fx-background-color: rgb(165,165,165);   
+}
+.scroll-bar .increment-button,
+.scroll-bar .decrement-button {   
+     -fx-padding: 5 5 5 5;   
+}
+.scroll-bar:horizontal .increment-button,
+.scroll-bar:horizontal .decrement-button {
+    -fx-padding :0.0 0.0 10.0 0.0;
+}
+.scroll-bar:vertical .increment-button,
+.scroll-bar:vertical .decrement-button {
+    -fx-padding :0.0 10.0 0.0 0.0;
+}
+ .scroll-bar .increment-arrow,
+ .scroll-bar .decrement-arrow {
+    -fx-shape : " ";    
+    -fx-padding: 0.05em;
+}
