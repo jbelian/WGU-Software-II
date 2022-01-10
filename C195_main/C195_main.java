@@ -32,7 +32,7 @@ import view.MainController;
 public class C195_main extends Application {
     /* 
     Welcome to the Very Advanced Calendar Application.
-	Credits to the people who made the Blade Runner movie font and the Cow emoji. 
+    Credits to the people who made the Blade Runner movie font and the Cow emoji. 
     
     For requirement G, I added inline comments to lambda expressions with // G:
     */
